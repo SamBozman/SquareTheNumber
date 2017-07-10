@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff66"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#88ccff"
+        android:padding="16dp"
+        android:text="Quantity"
+        android:textAllCaps="true" />
+
+    <EditText
+        android:id="@+id/quantity_text_view"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="ET2"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/round_button"
+        android:padding="16dp"
+        android:text="ORDER"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+         />
+
+</LinearLayout>
